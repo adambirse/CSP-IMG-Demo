@@ -156,7 +156,7 @@ function buildPage(currentImgSrc, reportOnly) {
 
     <div class="presets">
       <strong>Presets:</strong>
-      <button onclick="setPreset('${escapeHtml(defaultImgSrc)}')">Default (Self + PNGs only)</button>
+      <button onclick="setPreset('\\'self\\' https://rightsstatements.org/files/buttons/InC.dark-white-interior-blue-type.png https://rightsstatements.org/files/buttons/NoC-CR.dark-white-interior-blue-type.png')">Default (Self + PNGs only)</button>
       <button onclick="setPreset('\\'self\\' https://rightsstatements.org')">Allow entire domain</button>
       <button onclick="setPreset('*')">Allow all images</button>
       <button onclick="setPreset('\\'self\\'')">Self only (block all third-party)</button>
